@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_rice_variety"
+            android:icon="@drawable/ic_ricevariety"
+            android:title="Rice Variety" />
+
+        <item
+            android:id="@+id/nav_stat"
+            android:icon="@drawable/ic_stat"
+            android:title="Statistics"/>
+
+        <item
+            android:id="@+id/nav_developers"
+            android:icon="@drawable/ic_developers"
+            android:title="Developers" />
+        <item
+            android:id="@+id/nav_contact_us"
+            android:icon="@drawable/ic_contact_us"
+            android:title="Contact Us" />
+
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_help"
+            android:title="Help" />
+
+
+
+    </group>
+
+    <group android:checkableBehavior="single">
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share"
+                android:title="Share"/>
+
+        </menu>
+
+    </item>
+
+    </group>
+
+
+
+
+</menu>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    android:gravity="bottom"
+    android:padding="10dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:layout_height="176dp">
+
+    <ImageView
+        android:layout_marginTop="15dp"
+        android:layout_width="89dp"
+        android:layout_height="78dp"
+        android:src="@drawable/icgeb_logo2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="8dp"
+        android:text="iRSVPred 2.0"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="https://bioinfo.icgeb.res.in/irsvpred_2/"
+        android:autoLink="all"
+        android:clickable="true"
+        android:padding="8dp"
+        />
+
+
+
+</LinearLayout>

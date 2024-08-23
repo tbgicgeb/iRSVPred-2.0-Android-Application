@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="org.icgeb.irsvpred_2">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+<!--    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>-->
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <application
+        android:allowBackup="true"
+        android:grantUriPermissions="true"
+        android:requestLegacyExternalStorage="true"
+        android:icon="@mipmap/ic_app_icon_latest"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_app_icon_latest_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="q">
+        <activity
+            android:name="org.icgeb.irsvpred_2.ServerConnectionActivity"
+            android:parentActivityName="org.icgeb.irsvpred_2.HomeActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="org.icgeb.irsvpred_2.DevelopersActivity"
+            android:parentActivityName="org.icgeb.irsvpred_2.HomeActivity" />
+        <activity
+            android:name="org.icgeb.irsvpred_2.RiceVarietyActivity"
+            android:parentActivityName="org.icgeb.irsvpred_2.HomeActivity" />
+        <activity
+            android:name="org.icgeb.irsvpred_2.StatisticsActivity"
+            android:parentActivityName="org.icgeb.irsvpred_2.HomeActivity" />
+        <activity
+            android:name="org.icgeb.irsvpred_2.ContactUsActivity"
+            android:parentActivityName="org.icgeb.irsvpred_2.HomeActivity" />
+        <activity
+            android:name="org.icgeb.irsvpred_2.HelpActivity"
+            android:parentActivityName="org.icgeb.irsvpred_2.HomeActivity" />
+        <activity android:name="org.icgeb.irsvpred_2.HomeActivity" />
+        <activity
+            android:name="org.icgeb.irsvpred_2.AboutActivity"
+            android:parentActivityName="org.icgeb.irsvpred_2.HomeActivity" />
+        <activity android:name="org.icgeb.irsvpred_2.AlgoActivity" />
+        <activity android:name="org.icgeb.irsvpred_2.FullScreenImageActivityAlgo1" />
+        <activity android:name="org.icgeb.irsvpred_2.FullScreenImageActivityAlgo2" />
+        <activity android:name="org.icgeb.irsvpred_2.FullScreenImageActivityAlgo3" />
+        <activity android:name="org.icgeb.irsvpred_2.FullScreenImageActivityAlgo4" />
+        <activity android:name="org.icgeb.irsvpred_2.FullScreenImageActivityAlgo5a" />
+        <activity android:name="org.icgeb.irsvpred_2.FullScreenImageActivityAlgo5b" />
+        <activity android:name="org.icgeb.irsvpred_2.FullScreenImageActivityAlgo5c" />
+        <activity android:name="org.icgeb.irsvpred_2.FullScreenImageActivityAlgo6" />
+        <activity android:name="org.icgeb.irsvpred_2.FullScreenImageActivityAlgo7" />
+        <activity android:name="org.icgeb.irsvpred_2.FullScreenImageActivityRiceVariety1" />
+        <activity android:name="org.icgeb.irsvpred_2.FullScreenImageActivityRiceVariety2" />
+        <activity android:name="org.icgeb.irsvpred_2.FullScreenImageActivityStatistics1" />
+        <activity
+            android:name="org.icgeb.irsvpred_2.MainActivity"
+            android:exported="true"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="org.icgeb.android.irsvpred.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths"></meta-data>
+        </provider>
+    </application>
+
+</manifest>

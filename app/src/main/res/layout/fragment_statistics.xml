@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/algo_background">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar_st"
+        android:background="@color/colorPrimary"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar_st"
+        >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:id="@+id/stat_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/about_1"
+            android:textColor="#F44336"
+            android:textSize="30sp" />
+
+
+        <TextView
+            android:id="@+id/stat1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/stat_heading"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/stat_text_1"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stat_text_2"
+            android:layout_below="@+id/stat1"
+            android:id="@+id/stat2"
+            android:layout_margin="20dp"
+            android:textColor="#000000"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stat_text_3"
+            android:layout_below="@+id/stat2"
+            android:id="@+id/stat3"
+            android:layout_margin="20dp"
+            android:textColor="#000000"
+            />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stat_text_4"
+            android:layout_below="@+id/stat3"
+            android:id="@+id/stat4"
+            android:layout_margin="20dp"
+            android:textColor="#000000"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stat_text_5"
+            android:layout_below="@+id/stat4"
+            android:id="@+id/stat5"
+            android:layout_margin="20dp"
+            android:textColor="#000000"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stat_text_6"
+            android:layout_below="@+id/stat5"
+            android:id="@+id/stat6"
+            android:layout_margin="20dp"
+            android:textColor="#000000"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stat_text_7"
+            android:layout_below="@+id/stat6"
+            android:id="@+id/stat7"
+            android:layout_margin="20dp"
+            android:textColor="#000000"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/stat_image"
+            android:layout_below="@+id/stat7"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/statimage"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stat_text_8"
+            android:layout_below="@+id/statimage"
+            android:id="@+id/stat8"
+            android:layout_margin="20dp"
+            android:textColor="#000000"
+            />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stat_text_9"
+            android:layout_below="@+id/stat8"
+            android:id="@+id/stat9"
+            android:layout_margin="20dp"
+            android:textColor="#000000"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/references_heading"
+            android:textSize="20sp"
+            android:textColor="@color/colorAccent"
+            android:layout_below="@+id/stat9"
+            android:id="@+id/statref"
+            android:layout_margin="20dp"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stat_ref1"
+            android:layout_below="@+id/statref"
+            android:id="@+id/statref1"
+            android:layout_margin="20dp"
+            android:textColor="#000000"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stat_ref2"
+            android:layout_below="@+id/statref1"
+            android:id="@+id/statref2"
+            android:layout_margin="20dp"
+            android:autoLink="all"
+            android:clickable="true"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stat_ref3"
+            android:layout_below="@+id/statref2"
+            android:id="@+id/statref3"
+            android:layout_margin="20dp"
+            android:textColor="#000000"
+            />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stat_ref4"
+            android:layout_below="@+id/statref3"
+            android:id="@+id/statref4"
+            android:layout_margin="20dp"
+            android:autoLink="all"
+            android:clickable="true"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stat_ref5"
+            android:layout_below="@+id/statref4"
+            android:id="@+id/statref5"
+            android:layout_margin="20dp"
+            android:textColor="#000000"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stat_ref6"
+            android:layout_below="@+id/statref5"
+            android:id="@+id/statref6"
+            android:layout_margin="20dp"
+            android:autoLink="all"
+            android:clickable="true"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stat_ref7"
+            android:layout_below="@+id/statref6"
+            android:id="@+id/statref7"
+            android:layout_margin="20dp"
+            android:textColor="#000000"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stat_ref8"
+            android:layout_below="@+id/statref7"
+            android:id="@+id/statref8"
+            android:layout_margin="20dp"
+            android:autoLink="all"
+            android:clickable="true"
+            />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stat_ref9"
+            android:layout_below="@+id/statref8"
+            android:id="@+id/statref9"
+            android:layout_margin="20dp"
+            android:autoLink="all"
+            android:clickable="true"
+            />
+
+
+
+    </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

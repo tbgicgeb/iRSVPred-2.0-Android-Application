@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/algo_background">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar_dv"
+        android:background="@color/colorPrimary"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar_dv">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/team_head_1"
+            android:id="@+id/team_heading"
+            android:textColor="#F44336"
+            android:layout_centerHorizontal="true"
+            android:textSize="50sp"
+            />
+
+        <ImageView
+            android:id="@+id/dinesh_team"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/team_heading"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_margin="5dp"
+            android:src="@drawable/dinesh" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/team_h1"
+            android:text="Dr. Dinesh Gupta"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:layout_below="@id/team_heading"
+            android:layout_toRightOf="@id/dinesh_team"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Group Leader"
+            android:textColor="#000000"
+            android:layout_below="@id/team_h1"
+            android:layout_toRightOf="@id/dinesh_team"
+            android:layout_marginLeft="20dp"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:layout_centerInParent="true"
+            android:id="@+id/nimisha_team"
+            android:src="@drawable/nimisha"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="5dp"
+            android:layout_below="@id/dinesh_team"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/team_h2"
+            android:text="Nimisha"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:layout_below="@id/dinesh_team"
+            android:layout_toRightOf="@id/nimisha_team"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Senior Research Fellow"
+            android:textColor="#000000"
+            android:layout_below="@id/team_h2"
+            android:layout_toRightOf="@id/nimisha_team"
+            android:layout_marginLeft="20dp"
+            />
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:id="@+id/hemant_team"
+            android:src="@drawable/hemant"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="5dp"
+            android:layout_below="@id/nimisha_team"
+            />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/team_h3"
+            android:text="Hemant Kumar Joon"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:layout_below="@id/nimisha_team"
+            android:layout_toRightOf="@id/hemant_team"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pre Doctoral Fellow"
+            android:textColor="#000000"
+            android:layout_below="@id/team_h3"
+            android:layout_toRightOf="@id/hemant_team"
+            android:layout_marginLeft="20dp"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:id="@+id/deepshika_team"
+            android:src="@drawable/deepshikha"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="5dp"
+            android:layout_below="@id/hemant_team"
+            />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/team_h4"
+            android:text="Deepshikha Satish"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:layout_below="@id/hemant_team"
+            android:layout_toRightOf="@id/deepshika_team"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PHD Scholar"
+            android:textColor="#000000"
+            android:layout_below="@id/team_h4"
+            android:layout_toRightOf="@id/deepshika_team"
+            android:layout_marginLeft="20dp"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="Dr. Arun"
+            android:clickable="true"
+            android:layout_centerInParent="true"
+            android:id="@+id/arun_team"
+            android:src="@drawable/arun"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="5dp"
+            android:layout_below="@id/deepshika_team"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/team_h5"
+            android:text="Dr. Arun Sharma"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:layout_below="@id/deepshika_team"
+            android:layout_toRightOf="@id/arun_team"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Senior Information Scientist"
+            android:textColor="#000000"
+            android:layout_below="@id/team_h5"
+            android:layout_toRightOf="@id/arun_team"
+            android:layout_marginLeft="20dp"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:id="@+id/suhshmita_team"
+            android:src="@drawable/shushmita"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="5dp"
+            android:layout_below="@id/arun_team"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/team_h6"
+            android:text="Sushmita Sharma"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:layout_below="@id/arun_team"
+            android:layout_toRightOf="@id/suhshmita_team"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Programmer"
+            android:textColor="#000000"
+            android:layout_below="@id/team_h6"
+            android:layout_toRightOf="@id/suhshmita_team"
+            android:layout_marginLeft="20dp"
+            />
+
+    </RelativeLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

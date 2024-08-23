@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">iRSVPred 2.0</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    //Home//
+    <string name="hindi_desc">IRSVPred 2.0 के लिए फोटो लेने की विधि </string>
+    <string name="eng_desc">Directions to make a box for sample collection for iRSVPred 2.0</string>
+
+
+    //Rice Variety//
+    <string name="rv_head_1"><u>Breeding Line</u></string>
+    <string name="rv_head_2"><u>Ten Major Basmati Varities</u></string>
+    <string name="rv_head_3"><u>Varietes of Basmati rice, notified under the Seeds Act, 1966</u></string>
+
+
+    //About Basmati
+    <string name="about_1"><u>About Basmati</u></string>
+
+    //Team
+    <string name="team_head_1"><u>Team</u></string>
+
+
+    //Algo//
+
+
+    <string name="algo_head_1"><u>Work-Flow Diagram</u></string>
+    <string name="algo1">The complete dataset and all the scripts are available at:</string>
+    <string name="algo_link_1"> <a href="https://github.com/tbgicgeb/iRSVPred-2.0">  https://github.com/tbgicgeb/iRSVPred-2.0 </a> </string>
+    <string name="algo_fig1_description"><b>Figure:</b> Flowchart depicting the methodology used for the development of iRSVPred 2.0 web server and an Android-based mobile application.</string>
+    <string name="algo_head_2"><u>Comparative analysis between iRSVPred and iRSVPred 2.0</u></string>
+    <string name="algo_fig2_description"><b>Figure:</b> Inception-ResNet-V2 model architecture</string>
+    <string name="algo_fig3_description"><b>Figure:</b> The distribution of the images into the original dataset used for training and evaluation of AI-based models.</string>
+    <string name="algo_fig4_description"><b>Figure:</b> The distribution of original and augmented images into a final dataset used for training and evaluation of AI-based models.</string>
+
+    //Stat//
+
+    <string name="stat_text_1" formatted="false">1. Globally, India ranks first in acreage (26.6%) and 2nd in production (21.5%) of paddy.In 2009 total arable land for paddy in the world
+        is 158300068 hectare with the total production of 685240469 tonnes of paddy, out of which 41850000 hectare of the area is held by India only, which produced
+        133700000 tonnes of paddy just second after 196681170 tonnes by China.</string>
+    <string name="stat_text_2" formatted="false">2. Rice (including Basmati and Non Basmati) occupy the major share in India\'s total cereals export with 95.7% during the year 2017&#8211;18.
+        Whereas, other cereals including wheat represent only 4.3 % share in total cereals exported from India during this period.</string>
+    <string name="stat_text_3">3. Basmati rice constitutes a small portion of the total rice produced in India.(Total rice produced in 2017– 111.01 million tonnes.
+        Total basmati produced in 2017&#8211;25 million tonnes).</string>
+    <string name="stat_text_4" formatted="false">4. By volume, the share of basmati rice is around 6% in 2014&#8211;15, even as by value, basmati rice exports account for 57% in 2014&#8211;15,
+        of India\'s total rice exports.</string>
+    <string name="stat_text_5">5. India accounts for over 70% of the world\'s basmati rice production. India is the leading exporter of the Basmati Rice to the
+        global market.</string>
+    <string name="stat_text_6">6. The country has exported 4056758.62 MT of Basmati Rice to the world for the worth of Rs. 26870.17 crores (or 4169.48 US$ Mill.)
+        during the year 2017-18.</string>
+    <string name="stat_text_7" formatted="false">7. Major Export Destinations (2017&#8211;18) : Iran, Saudi Arab, U Arab Emts, Iraq and Kuwait.</string>
+    <string name="stat_text_8" formatted="false">8. In almost all the states, the private seed companies contribute a major share of the seed to the farmers. In Punjab 80&#8211;90% and in Haryana 70-80% seed is offered by
+        the small and medium private seed companies and Basmati traders.</string>
+    <string name="stat_text_9">9. In Aligarh market area of Uttar Pradesh 100% farmers depend on the tag on seed bag.</string>
+
+    <string name="references_heading"><u> References: </u></string>
+    <string name="stat_ref1">1. Basmati rice industry may revive in next harvest 2016&#8211;17: Icra".Business Standard. Press Trust of India. April 3, 2016. Retrieved 2018&#8211;03&#8211;21. </string>
+    <string name="stat_ref2"> <a href="https://pib.nic.in/newsite/PrintRelease.aspx?relid=176824"> </a> 2. https://pib.nic.in/newsite/PrintRelease.aspx?relid=176824</string>
+    <string name="stat_ref3">3. Basmati_Crop_survey_Report_6_Season_2018, Basmati Export Development Foundation APEDA, New Delhi.</string>
+    <string name="stat_ref4"> <a href="https://apeda.gov.in/apedawebsite/SubHead_Products/Basmati_Rice.htm"> </a>  4. https://apeda.gov.in/apedawebsite/SubHead_Products/Basmati_Rice.htm</string>
+    <string name="stat_ref5">5. Report on identity preservation of Basmati Rice at various stages in the Rice Supply Chain, Ministry of Environment Forest and Climate Change.</string>
+    <string name="stat_ref6"> <a href="https://www.fao.org/india/fao-in-india/india-at-a-glance/en/"> </a>  6. https://www.fao.org/india/fao-in-india/india-at-a-glance/en/</string>
+    <string name="stat_ref7">7. Sharma v. et al,(2013) Supply chain management of rice in India: A rice processing company’s perspective. DOI: 10.5121/ijmvsc.2013.4103. </string>
+    <string name="stat_ref8"> <a href="https://agriexchange.apeda.gov.in/product_profile/exp_f_india.aspx?categorycode=0601"> </a>  8. https://agriexchange.apeda.gov.in/product_profile/exp_f_india.aspx?categorycode=0601 </string>
+    <string name="stat_ref9"> <a href="https://apeda.gov.in/apedawebsite/six_head_product/cereal.htm"> </a>  9. https://apeda.gov.in/apedawebsite/six_head_product/cereal.htm</string>
+
+
+</resources>

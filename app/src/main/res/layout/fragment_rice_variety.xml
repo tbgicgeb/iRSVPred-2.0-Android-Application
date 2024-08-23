@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/algo_background"
+    >
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/toolbar_rv"
+            android:background="@color/colorPrimary"
+            />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar_rv">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rv_head_1"
+        android:layout_centerHorizontal="true"
+        android:textSize="26sp"
+        android:id="@+id/rv_h_1"
+        android:textColor="#9C27B0"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/rv_1"
+        android:id="@+id/rv_image_1"
+        android:layout_below="@id/rv_h_1"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rv_head_2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="5dp"
+        android:textSize="26sp"
+        android:id="@+id/rv_h_2"
+        android:layout_below="@id/rv_image_1"
+        android:textColor="#9C27B0"
+        />
+
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:layout_width="wrap_content"
+        android:layout_height="550dp"
+        android:foregroundGravity="center"
+        android:id="@+id/viewPager"
+        android:layout_centerInParent="true"
+        android:clipToPadding="false"
+        android:layout_below="@id/rv_h_2"
+        />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rv_head_3"
+            android:textSize="20sp"
+            android:layout_below="@id/viewPager"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/rv_h_3"
+            android:textColor="#9C27B0"
+            android:layout_marginTop="20dp"
+            />
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/rv_2"
+            android:layout_below="@id/rv_h_3"
+            android:id="@+id/rv_image_2"/>
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>
